@@ -1,0 +1,51 @@
+
+.tech-stack{
+    position: relative;
+    top: 200%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+ }
+ 
+ .stack-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ .course-col img{
+    width: 100%;
+    display: block;
+ }
+ 
+ .layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 0.5s;
+ }
+ 
+ .layer:hover{
+    background: rgba(253, 73, 73, 0.777);
+ }
+ 
+ .layer h3{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    font-weight: 600;
+    transform: translateX(-50%);
+    transition: 0.5s;
+ }
+ 
+ .layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+ }  

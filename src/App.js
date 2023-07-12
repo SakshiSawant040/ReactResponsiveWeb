@@ -7,7 +7,7 @@ import About from "./Navbar/About"
 import Services from "./Navbar/Services"
 import Contact from "./Navbar/Contact"
 import NotFound from "./Navbar/NotFound"
-import Footer from "./Navbar/Footer"
+
 
 function App() {
   return (

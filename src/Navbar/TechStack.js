@@ -2,7 +2,8 @@ import React from 'react'
 import img1 from "../images/london.png"
 import img2 from "../images/newyork.png"
 import img3 from "../images/washington.png"
-import "./Navbar.css"
+import "../Navbar/TechStack.css"
+
 
 function TechStack() {
   return (

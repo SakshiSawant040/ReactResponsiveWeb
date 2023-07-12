@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Navbar.css"
-import Services from './Services'
 import Footer from './Footer'
 import ServicesContent from './ServicesContent'
 import TechStack from './TechStack'
@@ -20,9 +19,7 @@ function Home() {
     
     <ServicesContent/>
     <TechStack />
-  
-
-     <Footer/>
+    <Footer/>
     </div>
   )
 }
