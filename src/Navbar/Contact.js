@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
 import Footer from "./Footer"
 import "../Navbar/Contact.css"
 import { useState } from 'react'
